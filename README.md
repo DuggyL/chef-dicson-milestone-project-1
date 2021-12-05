@@ -1,108 +1,115 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Chef Dicson Website</h1>
 
-Welcome USER_NAME,
+## Design Briefs
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the personal CV/ portfolio website for Chef Dicson. The goal is to design a website to look simple and elegant, representing experiences offered by clients.  It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers & recruiters. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Purpose & Goals
 
-## Gitpod Reminders
+- Online CV (focal point)
+- Promote private chef service (secondary)
+- Showcase pictures of client’s previous works (portfolio) 
+- Testimonials
+- Increase social media presence
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+##  Future Features
+
+- Ability for Visitor to book an appointment
+- Ability for Visitor sign up for newsletter
+- Link to Client's blogs page
+
+## User Experience (UX)
+
+-   ### First Time Visitor Goals
+
+    - As a First Time Visitor of the website, I want to easily understand the main purpose of the site and learn more about what types of services it offers.
+    - As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    - As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to determine how trusted and known he is.
+
+-   ### Returning Visitor Goals
+
+    - As a Returning Visitor, I want to find information about private chef services
+    - As a Returning Visitor, I want to find the best way to get in contact with Chef Dicson with any questions I may have.
+    - As a Returning Visitor, I want to find the links to social media sites easily
+
+-   ### Frequent User Goals
+
+    - As a Frequent User, I want to check to see if there are any newly added recipes. 
+    - As a Frequent User, I want to check to see if there are any new blog posts.
+
+##  Design
+
+  -   #### Colour Scheme
+        -   The two main colours used are dark green and gradient of orange
+  -   #### Typography
+        -   Font 1
+        -   Font 2
+  -   #### Imagery
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. The picture showcase chef ability and skills.
+  -   #### Main landing page layout
+        -   Header - Logo and navigation bar accompanied by hero images.
+        -   Main content - CV, career timeline, 
+        -   Private chef services
+        -   Pictures tile of of culinary invention
+        -   Carousel of testimonial 
+        -   Footer - Contact details and social media links
+
+*   ### Wireframes
+
+    -   Homepage Wireframe [view](images/monitor-wireframe.png)
+    -   Mobile Wireframe [view](images/mobile-wireframe.png)
+    -   Tablet Wireframe [view](images/tablet-wireframe.png)
+
+## Features
+
+-   Responsive on all device sizes
+
+## Technologies Used
+
+### Languages Used
+
+-   HTML
+-   CSS
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap v5.1.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Hover.css:](https://ianlunn.github.io/Hover/)
+    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Photoshop was used to resizing images and editing photos for the website.
+1. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
+    - Illustrator was used to create the logo and icons for the website.    
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+
+## Testing
+
+- ### Further Testing
+
+- ### Known Bugs
+
+## Deployment
+
+## Credits
+
+- ### Code
+
+- ### Content
+
+- ### Media
+
+- ### Acknowledgements
+
+
 
 `python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
