@@ -40,10 +40,11 @@ This is the personal CV/ portfolio website for Chef Dicson. The goal is to desig
 ##  Design
 
   -   #### Colour Scheme
-        -   The two main colours used are dark green and gradient of orange
+        -   The two main primary colours used are dark green (#005247) and orange (#e08000)
+        -   Supported by light grey (#dfe0df)
   -   #### Typography
-        -   Font 1
-        -   Font 2
+        -   Font Berkshire Swash or Pacifico
+        -   Font Quicksand or Inter or Open Sans
   -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. The picture showcase chef ability and skills.
   -   #### Main landing page layout
