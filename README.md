@@ -57,9 +57,9 @@ This is the personal CV/ portfolio website for Chef Dicson. The goal is to desig
 
 *   ### Wireframes
 
-    -   Homepage Wireframe [view](images/monitor-wireframe.png)
-    -   Mobile Wireframe [view](images/mobile-wireframe.png)
-    -   Tablet Wireframe [view](images/tablet-wireframe.png)
+    -   Homepage Wireframe [view](assets/images/monitor-wireframe.png)
+    -   Mobile Wireframe [view](assets/images/mobile-wireframe.png)
+    -   Tablet Wireframe [view](assets/images/tablet-wireframe.png)
 
 ## Features
 

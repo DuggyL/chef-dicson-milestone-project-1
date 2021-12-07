@@ -6,73 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef Dicson| Bringing luxury private dining experience to you</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 <body>
-    <nav class="">
-        <a href="#" class="">Chef Dicson</a>
-        <div class="">
-            <ul class="">
-                <li class=""><a href="#">Home</a></li>
-                <li class=""><a href="#">About Me</a></li>
-                <li class=""><a href="#">Private Chef</a></li>
-                <li class=""><a href="#">Gallery</a></li>
-                <li class=""><a href="#">Testimonials</a></li>
-                <li class=""><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
-    <article class="container text-center">
-        <!-- Callout -->
-        <section class="callout">
+    <header class="container">
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <a href="#" class="navbar-brand">Chef Dicson</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About Me</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Private Chef</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Our Services</a>
+                            <a class="dropdown-item" href="#">Gallery</a>
+                            <a class="dropdown-item" href="#">Testimonials</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Callout -->
+    <div class="container-fluid callout-container">
+        <section class="container text-center">
             <h1 class="display-2">Entertaining at home has never been so simple, pleasant and delicious</h1>
             <p class="lead">Chef Dicson will takes care of everything, from purchasing the ingredients, preparing the meal in your kitchen and then tidying up the kitchen before leaving. <strong>It lets you fully enjoy the company of your guests, whether the meal takes place with family, friends or business relations.</strong></p>
         </section>
-    </article>
-        <!-- /.Callout -->
-        <hr>
+    </div>
+    <!-- /.Callout -->
 
-        <!-- Chef Dicson -->
-        <section class="container">
-            <div class="row">
-                <div class="col-sm-8 text-center">
-                    <h1 class="display-6">About Chef Dicson</h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa feugiat, auctor purus nec, malesuada ante. Vivamus in tempor justo, eget sollicitudin leo. Mauris velit leo, porta id vehicula in, ultricies id augue. Pellentesque hendrerit est sit amet metus suscipit, in venenatis metus tempus. Nam ac urna sit amet massa cursus tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc quis imperdiet nibh.
-                    Vestibulum sed dui sed nulla venenatis sodales in nec diam. Mauris ut faucibus ipsum. Phasellus at efficitur erat. Vestibulum viverra nunc non metus sollicitudin, vitae pellentesque nisl gravida. Cras tincidunt tellus quis lacinia blandit. Cras vehicula elit erat, vel mattis libero placerat non. Sed sagittis enim non interdum viverra. Sed sodales, massa vel feugiat efficitur, tortor est sollicitudin nisi, nec congue ligula felis sed diam. Aenean a libero sit amet ligula condimentum consequat. In odio magna, bibendum ac nibh hendrerit, pellentesque fringilla orci. Nulla blandit nec mauris non pellentesque. Curabitur imperdiet lorem at sapien dapibus, sit amet laoreet ipsum eleifend. Etiam efficitur semper finibus. Aliquam porta sodales urna a euismod. Nulla egestas laoreet lacus vel euismod.</p>
-                </div>
-                <div class="col-md-4 bg-color-work-history section-column">
-                    <div class="col-12">
-                        <h3 class="history-heading display-6">Work History</h3>
+    <!-- About Me -->
+    <main>
+        <div>
+            <section class="container about-me-container">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h1 class="display-6">About Me</h1>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed massa feugiat, auctor purus nec, malesuada ante. Vivamus in tempor justo, eget sollicitudin leo. Mauris velit leo, porta id vehicula in, ultricies id augue. Pellentesque hendrerit est sit amet metus suscipit, in venenatis metus tempus. Nam ac urna sit amet massa cursus tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc quis imperdiet nibh.
+                        Vestibulum sed dui sed nulla venenatis sodales in nec diam. Mauris ut faucibus ipsum. Phasellus at efficitur erat. Vestibulum viverra nunc non metus sollicitudin, vitae pellentesque nisl gravida. Cras tincidunt tellus quis lacinia blandit. Cras vehicula elit erat, vel mattis libero placerat non. Sed sagittis enim non interdum viverra. Sed sodales, massa vel feugiat efficitur, tortor est sollicitudin nisi, nec congue ligula felis sed diam. Aenean a libero sit amet ligula condimentum consequat. In odio magna, bibendum ac nibh hendrerit, pellentesque fringilla orci. Nulla blandit nec mauris non pellentesque. Curabitur imperdiet lorem at sapien dapibus, sit amet laoreet ipsum eleifend. Etiam efficitur semper finibus. Aliquam porta sodales urna a euismod. Nulla egestas laoreet lacus vel euismod.</p>
                     </div>
-                        <div class="history-items">
-                            <div class="timeline-item" data-dates="02/2015 - 02/2019">
-                                <h4>Upstair At The Grill</h4>
-                                <p>Head Chef</p>
-                            </div>
-                            <div class="timeline-item" data-dates="02/2019 - 09/2019">
-                                <h4>Scott Duncan</h4>
-                                <p>Private Chef</p>
-                            </div>
-                            <div class="timeline-item" data-dates="10/2019 - 08/2021">
-                                <h4>Rowhill Grange Hotel & Utopia Spa</h4>
-                                <p>Junior Sous Chef</p>
-                            </div>
-                            <div class="timeline-item" data-dates="08/2021 - Present">
-                                <h4>Six by Nico</h4>
-                                <p>Senier Chef Partie</p>
+
+                    <div class="col-md-4 bg-color-work-history section-column">
+                        <div class="col-12">
+                            <h3 class="history-heading display-6">Work History</h3>
+                        </div>
+                            <div class="history-items">
+                                <div class="timeline-item" data-dates="08/2021 - Present">
+                                    <h4>Six by Nico</h4>
+                                    <p>Senier Chef Partie</p>
+                                </div>
+                                <div class="timeline-item" data-dates="10/2019 - 08/2021">
+                                    <h4>Rowhill Grange Hotel & Utopia Spa</h4>
+                                    <p>Junior Sous Chef</p>
+                                </div>
+                                <div class="timeline-item" data-dates="02/2019 - 09/2019">
+                                    <h4>Scott Duncan</h4>
+                                    <p>Private Chef</p>
+                                </div>
+                                <div class="timeline-item" data-dates="02/2015 - 02/2019">
+                                    <h4>Upstair At The Grill</h4>
+                                    <p>Head Chef</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+    <!-- /.About Me -->
+    
+    <hr>
 
-        <!-- /.Chef Dicson -->
-        <hr>
-
-        <!-- Private Chef -->
-
-        <section class="container private-chef text-center">
+    <!-- Private Chef -->
+    <div>
+        <section class="container private-chef-container">
             <div class="row">
                 <div class="col-sm-4">
                     <img src="" alt="">
@@ -96,52 +111,60 @@
                     <div class="col-sm-4">
                         <h4 class="text-uppercase">Steps 3</h4>
                         <p>And I clean up before leaving</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
+    <!-- /.Private Chef -->
+    
+    <hr>
 
-        <!-- /.Private Chef -->
-        <hr>
-
-        <!-- Carousel -->
-
+    <!-- Carousel -->
         <div class="container-fluid carousel-item">
             <img src="..." alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>...</h5>
-              <p>...</p>
-            </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>...</h5>
+                    <p>...</p>
+                </div>
         </div>
+    <!-- Carousel -->
+    
+    <hr>
 
-        <!-- Carousel -->
-        <hr>
+    <!-- Testimonials -->
+        <div>
+            <section class="container testimonials-container">
+                <h2 class="display-6">Testimonials</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <blockquote class="blockquote">
+                            <p>"Such a treat! Thank's so much, absolutely loving the meals."</p>
+                            <footer class="blockquote-footer">Carrie, Shortlands</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-sm-4">
+                        <blockquote class="blockquote">
+                            <p>"That was amazing! Thank you so much for lovely meals"</p>
+                            <footer class="blockquote-footer">Harry, Hextable</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-sm-4">
+                        <blockquote class="blockquote">
+                            <p>"Oh my word! Totally blown away"</p>
+                            <footer class="blockquote-footer">Kerry, Bromley</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- /.Testimonials -->
 
-        <!-- Testimonials -->
-        <section class="container testimonials text-center">
-            <h2 class="display-6">Testimonials</h2>
-            <div class="row">
-                <div class="col-sm-4">
-                    <blockquote class="blockquote">
-                        <p>"Such a treat! Thank's so much, absolutely loving the meals."</p>
-                        <footer class="blockquote-footer">Carrie, Shortlands</footer>
-                    </blockquote>
-                </div>
-                <div class="col-sm-4">
-                    <blockquote class="blockquote">
-                        <p>"That was amazing! Thank you so much for lovely meals"</p>
-                        <footer class="blockquote-footer">Harr, Hextable</footer>
-                    </blockquote>
-                </div>
-                <div class="col-sm-4">
-                    <blockquote class="blockquote">
-                        <p>"Oh my word! Totally blown away"</p>
-                        <footer class="blockquote-footer">Kerry, Bromley</footer>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
-        <!-- /.Testimonials -->
-        <hr>
-    </article>
+    <hr>
+
+    <footer>
+        
+    </footer>
 </body>
+
 </html>

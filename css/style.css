@@ -1,0 +1,116 @@
+header {
+    background-color: #005247;
+}
+
+.bg-color-work-history {
+    background-color: #005247;
+}
+
+#logo {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 13px;
+    width: 100%;
+    height: 145px;
+    margin-left: 40%;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #005247;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Containers */
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/main-image.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.about-me-container {
+
+}
+
+.private-chef-container {
+
+}
+
+.testimonials-container {
+
+}
+
+/* Work History */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 15px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 15px;
+}
