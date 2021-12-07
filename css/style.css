@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body {
     font-family: Quicksand;
 }
-
-/* Navbar */
 
 header {
     background-color: #005247;
 }
 
+/* Navbar */
+
 #logo{
     float: left;
-    margin-left: 25px;
     font-family: Pacifico;
     font-size: 300%;
     text-decoration: none;
@@ -44,7 +45,7 @@ header {
 /* Containers */
 
 .callout-container {
-    height: 100vh;
+    height: 75vh;
 
     background: url('../images/main-image.png') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -63,9 +64,22 @@ header {
 
 }
 
-.private-chef-container {
+.ingredients-container {
+    height: 20vh;
 
+    background: url('../images/ingredients.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+
 
 .testimonials-container {
 
@@ -122,4 +136,41 @@ header {
 
 .bg-color-work-history {
     background-color: #005247;
+}
+
+/* Work History */
+
+footer {
+    background-color: #005247;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #e08000;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e08000;
+}
+
+#footer-details {
+    padding: 20px;
 }

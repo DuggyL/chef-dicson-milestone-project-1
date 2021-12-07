@@ -1,5 +1,3 @@
-<h1 align="center">Chef Dicson Website</h1>
-
 ## Design Briefs
 
 This is the personal CV/ portfolio website for Chef Dicson. The goal is to design a website to look simple and elegant, representing experiences offered by clients.  It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers & recruiters. 
