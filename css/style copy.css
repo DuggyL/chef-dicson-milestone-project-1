@@ -4,11 +4,6 @@ body {
     font-family: Quicksand;
 }
 
-h1 {
-    font-weight: 900;
-    color: #005247;
-}
-
 /* Navbar */
 
 #logo{
@@ -19,32 +14,53 @@ h1 {
     color:#e08000;
 }
 
-.callout-container h1 {
-    color: white;
-    text-shadow: 4px 4px  #005247;
-    font-weight: 700;
+#nav-container {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #005247;
 }
 
-#nav-menu {
+#menu{
     list-style-type: none;
     text-align: right;
     padding-left: 20px;
 }
 
-#nav-menu li {
+#menu li {
     margin-top: 10px;
     margin-right: 25px;
     display: inline-block;
 }
 
-#nav-menu a {
+#menu a {
     text-decoration: none;
+    float: right;
     font-weight: bold;
     font-size: 125%;
     color: white;
+    display: block;
 }
 
-/* About Me */
+.nav-social-links li a i {
+    float: right;
+    width: 32px;
+    height: 32px;
+    margin-top: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #e08000;
+}
+
+
+
+
+
+
 
 #dicson {
     display: block;
@@ -57,21 +73,19 @@ h1 {
 	shape-outside:circle();
 }
 
-.about-me p {
-    padding-right: 25px;
-}
-
 /* Containers */
 
 .header-container {
     background-color: #005247;
 }
 
-.callout-container {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
+
+
+
+
+
+
+
 
 .callout-container {
     height: 75vh;
@@ -90,48 +104,47 @@ h1 {
 }
 
 .about-me-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-align: justify;
 }
 
 .private-chef-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-align: center;
-    background-color: #005247;
 }
 
-.instructions-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
+.ingredients-container {
+    width: 500px;
+    height: 250px;
+
+    background: url('../images/ingredients.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+
 
 .testimonials-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-align: center;
 }
 
 /* Work History */
 
 .history-heading {
-    margin-bottom: 0px;
+    color: #fafafa;
+    margin-bottom: 15px;
 }
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    border-left: 2px solid;
+    color: #fafafa;
+    border-left: 1px solid;
 }
 
 .timeline-item p {
@@ -145,6 +158,7 @@ h1 {
     left: 2.5em;
     top: 3em;
     display: block;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
     font-size: 0.8em;
     padding: 0;
@@ -157,16 +171,20 @@ h1 {
     display: block;
     top: 2.4em;
     position: absolute;
-    left: -7px;
+    left: -6px;
     border-radius: 12px;
     content: '';
-    background: black;
+    background: #fafafa;
 }
 
 .history-items {
     margin-bottom: 15px;
 }
 
+
+.bg-color-work-history {
+    background-color: #005247;
+}
 
 /* Work History */
 
