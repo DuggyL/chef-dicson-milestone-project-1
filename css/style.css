@@ -8,6 +8,11 @@ header {
     background-color: #005247;
 }
 
+hr {
+    margin: 5rem 0;
+    text-decoration: none;
+}
+
 /* Navbar */
 
 #logo{
@@ -42,6 +47,17 @@ header {
     border: 0;
 }
 
+#dicson {
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40%;
+	height: auto;
+	float: left;
+	margin-right:2rem; 
+	shape-outside:circle();
+}
+
 /* Containers */
 
 .callout-container {
@@ -61,7 +77,11 @@ header {
 }
 
 .about-me-container {
+    text-align: justify;
+}
 
+.private-chef-container {
+    text-align: center;
 }
 
 .ingredients-container {
@@ -82,7 +102,7 @@ header {
 
 
 .testimonials-container {
-
+    text-align: center;
 }
 
 /* Work History */
@@ -173,4 +193,10 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.carousel-item {
+    width: 32rem;
+    height: 32rem;
+    background: #fafafa;
 }
