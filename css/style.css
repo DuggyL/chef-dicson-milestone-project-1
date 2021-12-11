@@ -8,10 +8,15 @@ body {
 h1 {
     font-weight: 900;
     color: #005247;
+    text-transform: uppercase;
 }
 
 h2 {
     font-weight: 900;
+}
+
+hr {
+    display: none;
 }
 
 /* Navbar */
@@ -38,6 +43,10 @@ h2 {
 
 #nav-menu a {
     color: white;
+}
+
+#nav-menu a:hover {
+    color: #e08000;
 }
 
 /* About Me */
@@ -124,6 +133,11 @@ h2 {
 
 /* Private Chef */
 
+.private-chef-container {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
 .private-chef-container h1 {
     color: #e08000;
     text-align: center;
@@ -132,7 +146,12 @@ h2 {
 .private-chef-container p {
     color: white;
     font-size: 115%;
+    font-weight: 700;
     text-align: justify;
+}
+
+#private-chef-text {
+    margin-top: 20px;
 }
 
 /* Containers */
@@ -164,10 +183,8 @@ h2 {
 }
 
 .private-chef-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 35px;
     background: rgb(14,41,37);
     background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
 }
@@ -180,12 +197,36 @@ h2 {
     text-align: center;
 }
 
+.instructions-container img {
+    padding: 50px;
+}
+
+.instructions-container p {
+    font-size: 150%;
+}
+
 .testimonials-container {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
+}
+
+#testimonials-banner {
+    height: 50vh;
+
+    background: url('../images/noodle-bowl.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
 /* Footer */
