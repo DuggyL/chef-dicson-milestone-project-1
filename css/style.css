@@ -21,12 +21,11 @@ hr {
 
 /* Navbar */
 
-#logo{
+#logo {
     font-family: Pacifico;
     font-size: 300%;
     text-decoration: none;
     color:#e08000;
-
 }
 
 #nav-menu li {
@@ -140,18 +139,16 @@ hr {
 
 .private-chef-container h1 {
     color: #e08000;
+    font-size: 450%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .private-chef-container p {
     color: white;
     font-size: 115%;
-    font-weight: 700;
+    font-weight: 500;
     text-align: justify;
-}
-
-#private-chef-text {
-    margin-top: 20px;
 }
 
 /* Containers */
@@ -206,12 +203,17 @@ hr {
 }
 
 .testimonials-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
 }
+
+.footer-container {
+    padding: 25px;
+}
+
+/* Testimonials */
 
 #testimonials-banner {
     height: 50vh;
@@ -232,13 +234,56 @@ hr {
 /* Footer */
 
 footer {
-    background-color: #005247;
+    padding-top: 30px;
+    background: rgb(14,41,37);
+    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
     color: #fafafa;
     min-height: 120px;
     margin: 0;
 }
+  
+footer a {
+    color: white;
+    text-decoration:none;
+}
+  
+footer a:hover {
+    color: #e08000;
+    text-decoration:none;
+}
+  
+footer p {
+    margin-top: 15px;
+}
+
+footer .form-control {
+    background-color: white;
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#e08000;
+}
+
+footer h1 {
+    color:#e08000;
+}
+
+#footer-logo {
+    font-family: Pacifico;
+    font-size: 300%;
+    float: left;
+    text-decoration: none;
+    color:#e08000;
+}
 
 .social-links {
+    margin-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -254,6 +299,6 @@ footer {
     background: #e08000;
 }
 
-#footer-details {
-    padding: 20px;
+.footer-form {
+    margin-top: 15px
 }
