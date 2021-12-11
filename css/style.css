@@ -2,6 +2,7 @@
 
 body {
     font-family: Quicksand;
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -9,38 +10,33 @@ h1 {
     color: #005247;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 /* Navbar */
 
 #logo{
-    float: left;
     font-family: Pacifico;
     font-size: 300%;
     text-decoration: none;
     color:#e08000;
-}
 
-.callout-container h1 {
-    color: white;
-    text-shadow: 4px 4px  #005247;
-    font-weight: 700;
-}
-
-#nav-menu {
-    list-style-type: none;
-    text-align: right;
-    padding-left: 20px;
 }
 
 #nav-menu li {
-    margin-top: 10px;
-    margin-right: 25px;
+    list-style-type: none;
+    text-decoration: none;
     display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: right;
+    letter-spacing: 2px;
+    margin-left: 40px;
 }
 
 #nav-menu a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 125%;
     color: white;
 }
 
@@ -58,34 +54,92 @@ h1 {
 }
 
 .about-me {
-    margin-right: 25px;
-    margin-left: 25px;
-    padding-bottom: 50px;
-    font-size: 110%;
+    margin: 25px, 25px, 50px, 0;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 115%;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#tagline {
+    color: #005247;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/* Work History */
+
+.timeline {
+    margin: 25px, 50px, 25px, 0;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.history-heading {
+    margin-bottom: 20px;
+}
+
+.timeline-item {
+    padding: 4.5em 2em 0em 2em;
+    position: relative;
+    border-left: 2px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -7px;
+    border-radius: 12px;
+    content: '';
+    background: #005247;
+    margin-top: 15px;
+}
+
+.history-items {
+    margin-bottom: 25px;
 }
 
 /* Private Chef */
 
 .private-chef-container h1 {
     color: #e08000;
+    text-align: center;
 }
 
 .private-chef-container p {
     color: white;
-    font-size: 110%;
+    font-size: 115%;
     text-align: justify;
 }
 
 /* Containers */
 
 .header-container {
-    background-color: #005247;
-}
-
-.callout-container {
-    color: white;
-    font-weight: bold;
-    text-align: center;
+    background: rgb(14,41,37);
+    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
 }
 
 .callout-container {
@@ -107,16 +161,15 @@ h1 {
 .about-me-container {
     padding-top: 25px;
     margin-top: 15px;
-    text-align: justify;
 }
 
 .private-chef-container {
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-    background-color: #005247;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: rgb(14,41,37);
+    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
 }
 
 .instructions-container {
@@ -133,51 +186,6 @@ h1 {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
-}
-
-/* Work History */
-
-.history-heading {
-    margin-bottom: 0px;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    border-left: 2px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -7px;
-    border-radius: 12px;
-    content: '';
-    background: black;
-}
-
-.history-items {
-    margin-bottom: 15px;
 }
 
 /* Footer */

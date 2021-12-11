@@ -90,7 +90,10 @@ This is the personal CV/ portfolio website for Chef Dicson. The goal is to desig
     - Illustrator was used to create the logo and icons for the website.    
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
-
+1. [cssgradient](/cssgradient.io)
+    - CSS gradient used to created header and footer gradient.
+1. [w3schools](https://www.w3schools.com)
+    - w3schools help me to optimise css codes
 ## Testing
 
 - ### Further Testing

@@ -13,24 +13,37 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
 </head>
 <body>
-    <header class="header-container container-fluid">
-        <nav class="container navbar">
-            <a href="index.html" id="logo" class="navbar-brand">Chef Dicson</a>
-            <ul id="nav-menu">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Private Chef</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact Me</a></li>
-            </ul>
+    <header class="header-container container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a id="logo" class="navbar-brand nav-link active" aria-current="page" href="index.html">Chef Dicson</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div id="nav-menu" class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#private-chef">Private Chef</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     
-        <div class="container-fluid callout-container">
-            <h1 class="container display-1">Entertaining at home has never been so simple, pleasant and delicious</h1>
-        </div>
+    <div class="container-fluid callout-container"></div>
 
     <main>
-        <section class="about-me-container container">
+        <section id="about-me" class="about-me-container container">
             <div class="row">
                 <div class="col-sm-8">
                     <section class="about-me"> 
@@ -38,15 +51,16 @@
                         <h1>About Me</h1>
                         <br>
                         <p>
-                            Chef Dicson has gained years of experience in many areas of the Catering industry. From a young age he has worked tirelessly to get to where he is today. 
+                            Chef Dicson has gained years of experience in many areas of the catering industry. From a young age he has worked tirelessly to get to where he is today. 
                             Start from Deeside College, studying catering and work his way from junior chef to head chef position at very young age.
-                            Now he leads Professional and Private Chef Services from the kitchen, maintaining a very hands on approach to professional catering.
                         </p>
                         <p>
-                            After working in the industry for over 10 years and winning many awards included Chef of the Year 2017 (At Upstair at the Grill). 
+                            After working in the industry for over 10 years and winning many awards included <strong>Chef of the Year 2017 at Upstair at the Grill.</strong>
                             He founded Private Chef Services, to bring some of premium reseraunt service to the weddings, dinner parties and social events.
-                            Based in Bromley, we cater for private and corporate events across England and Wales.
-                            The ‘wow-factor’ is the most important part of the process for Chef Dicson. Seeing the joy and elation on the faces of his guests is what fuels his passion for cooking. 
+                        </p>
+                        <p>
+                            Based in Bromley, he cater for private and corporate events across England and Wales.
+                            The "wow-factor" is the most important part of the process. Seeing the joy and elation on the faces of his guests is what fuels his passion for cooking. 
                         </p>
                         <p>
                             Chef Dicson offers a delicious Pan-Asian style menu, bursting with bold and blended flavours. 
@@ -55,25 +69,27 @@
                     </section>    
                 </div>
                 <div class="col-md-4 bg-color-work-history section-column">
-                    <div class="col-12">
-                        <h1 class="history-heading">Work History</h1>
-                    </div>
-                        <div class="history-items">
-                            <div class="timeline-item" data-dates="08/2021 - Present">
-                                <h4>Six by Nico</h4>
-                                <p>Senier Chef Partie</p>
-                            </div>
-                            <div class="timeline-item" data-dates="10/2019 - 08/2021">
-                                <h4>Rowhill Grange Hotel & Utopia Spa</h4>
-                                <p>Junior Sous Chef</p>
-                            </div>
-                            <div class="timeline-item" data-dates="02/2019 - 09/2019">
-                                <h4>Scott Duncan</h4>
-                                <p>Private Chef</p>
-                            </div>
-                            <div class="timeline-item" data-dates="02/2015 - 02/2019">
-                                <h4>Upstair At The Grill</h4>
-                                <p>Head Chef</p>
+                    <div class="timeline">
+                        <div class="col-12">
+                            <h1 class="history-heading">Work History</h1>
+                        </div>
+                            <div class="history-items">
+                                <div class="timeline-item" data-dates="02/2015 - 02/2019">
+                                    <h4>Upstair At The Grill</h4>
+                                    <p>Head Chef</p>
+                                </div>
+                                <div class="timeline-item" data-dates="02/2019 - 09/2019">
+                                    <h4>Scott Duncan</h4>
+                                    <p>Private Chef</p>
+                                </div>
+                                <div class="timeline-item" data-dates="10/2019 - 08/2021">
+                                    <h4>Rowhill Grange Hotel & Utopia Spa</h4>
+                                    <p>Junior Sous Chef</p>
+                                </div>
+                                <div class="timeline-item" data-dates="08/2021 - Present">
+                                    <h2>Six by Nico</h2>
+                                    <p>Senier Chef Partie</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,7 +97,11 @@
             </div>
         </section>
 
-        <section class="private-chef-container">
+        <div class="container">
+            <h1 id="tagline" class="display-4"><em>Entertaining at home has never been so simple, pleasant and delicious!</em></h1>
+        </div>
+
+        <section id="private-chef" class="private-chef-container">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -186,7 +206,7 @@
 
         <hr>
 
-        <section class="testimonials-container container">
+        <section id="testimonials" class="testimonials-container container">
             <div>
                 <h1>Testimonials</h1>
                 <div class="row">
@@ -214,7 +234,7 @@
     </main>
 
     <footer>
-        <section class="contact-me-container container">
+        <section id="contact-me" class="contact-me-container container">
             <div class="row">
                 <div class="col-sm-4">
                     <h5>Contact Me</h5>
