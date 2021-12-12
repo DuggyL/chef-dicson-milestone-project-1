@@ -48,6 +48,10 @@ hr {
     color: #e08000;
 }
 
+.active {
+    color: #e08000;
+}
+
 /* About Me */
 
 #dicson {
@@ -149,6 +153,18 @@ hr {
     font-size: 115%;
     font-weight: 500;
     text-align: justify;
+}
+
+.private-chef-container img {
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50%;
+	height: auto;
+	float: left;
+	margin-right:2rem; 
+	shape-outside:circle();
+    border-style: none;
 }
 
 /* Containers */
