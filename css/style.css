@@ -38,13 +38,16 @@ hr {
     text-align: right;
     letter-spacing: 2px;
     margin-left: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-#nav-menu a {
+#nav-menu li a {
     color: white;
 }
 
-#nav-menu a:hover {
+#nav-menu li a:hover {
     color: #e08000;
 }
 
