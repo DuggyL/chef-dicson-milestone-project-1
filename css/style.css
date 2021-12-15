@@ -78,6 +78,26 @@ hr {
     text-align: justify;
 }
 
+@media (max-width: 650px) {
+
+.extra_content {
+    display: none;
+}
+
+#read_more {
+    display: block;
+}
+  
+}
+  
+.read_more  {
+    display: none;
+}
+  
+.show {
+     display: block!important;
+}
+
 #tagline {
     color: #005247;
     text-align: center;
@@ -179,18 +199,16 @@ hr {
 
 .callout-container {
     height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 
     background: url('../images/main-image.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
 }
 
 .about-me-container {
