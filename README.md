@@ -12,6 +12,8 @@ This is the personal CV/ portfolio website for Chef Dicson. The goal is to desig
 
 ##  Future Features
 
+In the future, I would like to add the following features:-
+
 - Ability for Visitor to book an appointment
 - Ability for Visitor sign up for newsletter
 - Link to Client's blogs page
@@ -32,26 +34,33 @@ This is the personal CV/ portfolio website for Chef Dicson. The goal is to desig
 
 -   ### Frequent User Goals
 
-    - As a Frequent User, I want to check to see if there are any newly added recipes. 
-    - As a Frequent User, I want to check to see if there are any new blog posts.
+    - As a Frequent User, I want contact or connect on social media with Chef Dicson.
 
 ##  Design
 
   -   #### Colour Scheme
-        -   The two main primary colours used are dark green (#005247) and orange (#e08000)
-        -   Supported by light grey (#dfe0df)
+        -   The two main primary colours used are dark green (#005247)
+        -   Supported by orange (#e08000)
+
+        According to the psychology of colour, green represent balance and harmony and a darker shade of green symbolise ambition and wealth.  A gradient of both colours creates the perfect representation of the business brand. The orange colour creates a great contrast with the green background, increasing the readability and image of the chef working in the hot kitchen.
+
   -   #### Typography
-        -   Font Berkshire Swash or Pacifico
-        -   Font Quicksand or Inter or Open Sans
+        -   Font Pacifico
+        -   Font Quicksand
+    
+        Pacifico will be used exclusively on the Chef Dicson logo. The reason I chose Pacifico is the simplicity and fluidity of the script typeface. It conveys the feelings of being fun, easy-going, and hassle-free. And it accompanies by Quicksand font, a round sans-serif typeface that conveys a sense of friendliness, reliable and has great readability. 
+
   -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. The picture showcase chef ability and skills.
+
+        Carousel of culinary dishes designed to showcase new and interesting delicious dishes constantly serve to site visitors. An opportunity to showcase Chef Dicson portfolio of culinary inventions. 
   -   #### Main landing page layout
-        -   Header - Logo and navigation bar accompanied by hero images.
+        -   Header - Logo and navigation bar accompanied by main eye catching images.
         -   Main content - CV, career timeline, 
         -   Private chef services
-        -   Pictures tile of of culinary invention
-        -   Carousel of testimonial 
-        -   Footer - Contact details and social media links
+        -   Carousel of culinary invention
+        -   Testimonials
+        -   Footer - Contact details, social media links, contact form
 
 *   ### Wireframes
 
@@ -62,6 +71,8 @@ This is the personal CV/ portfolio website for Chef Dicson. The goal is to desig
 ## Features
 
 -   Responsive on all device sizes
+-   
+-   Allow
 
 ## Technologies Used
 
