@@ -20,7 +20,28 @@ hr {
     display: none;
 }
 
-/* Navbar */
+/* Header */
+
+.header-container {
+    background: rgb(14,41,37);
+    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
+}
+
+.callout-container {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: url('../images/main-image.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Navigation Bar */
 
 #logo {
     font-family: Pacifico;
@@ -79,22 +100,16 @@ hr {
     text-align: justify;
 }
 
-@media (max-width: 650px) {
-    .extra_content {
-        display: none;
-    }
+.about-me-container {
+    padding-top: 25px;
+    margin-top: 15px;
+}
 
-    #read_more {
-        display: block;
-    } 
-}
-  
-.read_more  {
-    display: none;
-}
-  
-.show {
-     display: block!important;
+.about-me-container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
 }
 
 #tagline {
@@ -158,6 +173,12 @@ hr {
 
 /* Private Chef */
 
+.private-chef-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(14,41,37);
+    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
+}
 
 .private-chef-container h1 {
     color: #e08000;
@@ -173,52 +194,14 @@ hr {
     text-align: justify;
 }
 
-/* Containers */
-
-.header-container {
-    background: rgb(14,41,37);
-    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
-}
-
-.callout-container {
-    height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
-    background: url('../images/main-image.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.about-me-container {
-    padding-top: 25px;
-    margin-top: 15px;
-}
-
-.about-me-container a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: black;
-}
-
-.private-chef-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background: rgb(14,41,37);
-    background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
-}
-
 .private-chef-container a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     color: #e08000;
 }
+
+/* How it work? */
 
 .instructions-container {
     padding-top: 25px;
@@ -241,18 +224,14 @@ hr {
     text-transform: uppercase;
 }
 
+/* Testimonials */
+
 .testimonials-container {
     padding: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
 }
-
-.footer-container {
-    padding: 25px;
-}
-
-/* Testimonials */
 
 #testimonials-banner {
     height: 50vh;
@@ -276,6 +255,10 @@ hr {
 }
 
 /* Footer */
+
+.footer-container {
+    padding: 25px;
+}
 
 footer {
     padding-top: 30px;
