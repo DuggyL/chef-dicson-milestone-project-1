@@ -7,6 +7,7 @@ body {
 
 h1 {
     font-weight: 900;
+    font-size: 38px;
     color: #005247;
     text-transform: uppercase;
 }
@@ -79,15 +80,13 @@ hr {
 }
 
 @media (max-width: 650px) {
+    .extra_content {
+        display: none;
+    }
 
-.extra_content {
-    display: none;
-}
-
-#read_more {
-    display: block;
-}
-  
+    #read_more {
+        display: block;
+    } 
 }
   
 .read_more  {
@@ -159,10 +158,6 @@ hr {
 
 /* Private Chef */
 
-.private-chef-container {
-    padding-right: 25px;
-    padding-left: 25px;
-}
 
 .private-chef-container h1 {
     color: #e08000;
@@ -176,18 +171,6 @@ hr {
     font-size: 115%;
     font-weight: 500;
     text-align: justify;
-}
-
-.private-chef-container img {
-    display: block;
-    border-radius: 50%;
-    padding: 10px;
-    width: 50%;
-	height: auto;
-	float: left;
-	margin-right:2rem; 
-	shape-outside:circle();
-    border-style: none;
 }
 
 /* Containers */
@@ -216,11 +199,25 @@ hr {
     margin-top: 15px;
 }
 
+.about-me-container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
 .private-chef-container {
     padding-top: 40px;
-    padding-bottom: 35px;
+    padding-bottom: 40px;
     background: rgb(14,41,37);
     background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
+}
+
+.private-chef-container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e08000;
 }
 
 .instructions-container {
@@ -232,7 +229,8 @@ hr {
 }
 
 .instructions-container img {
-    padding: 50px;
+    margin: 25px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.5);
 }
 
 .instructions-container p {
@@ -244,6 +242,7 @@ hr {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
+    
 }
 
 .footer-container {
