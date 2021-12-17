@@ -89,10 +89,10 @@ hr {
 
 /* About Me */
 
-#dicson {
+.dicson {
     display: block;
-	float: left;
-	margin: 0px 25px 25px 0px;
+    float: left;
+    margin: 0px 25px 25px 0px;
     shape-outside: circle();
 }
 
@@ -118,7 +118,7 @@ hr {
 }
 
 
-#tagline {
+.tagline {
     color: #005247;
     text-align: center;
     margin-top: 25px;
@@ -245,7 +245,7 @@ hr {
     text-align: center;
 }
 
-#testimonials-banner {
+.testimonials-banner {
     height: 50vh;
     display: flex;
     align-items: center;
@@ -267,12 +267,9 @@ hr {
 
 /* Footer */
 
-.footer-container {
-    padding: 25px;
-}
-
 footer {
     padding-top: 30px;
+    padding-bottom: 30px;
     background: rgb(14,41,37);
     background: linear-gradient(90deg, rgba(14,41,37,1) 0%, rgba(0,82,71,1) 50%);
     color: #fafafa;
@@ -280,10 +277,7 @@ footer {
     margin: 0;
 }
   
-#footer-logo {
-    font-family: Pacifico;
-    font-size: 300%;
-    text-decoration: none;
+footer h1 {
     color:#e08000;
 }
 
@@ -301,10 +295,6 @@ footer p {
     margin-top: 15px;
 }
 
-.footer-form {
-    margin-top: 15px
-}
-
 footer .form-control {
     background-color: white;
     border: none;
@@ -313,18 +303,29 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
-#phone-number {
+.footer-container {
+    padding: 25px;
+}
+
+.footer-logo {
+    font-family: Pacifico;
+    font-size: 300%;
+    text-decoration: none;
+    color:#e08000;
+}
+
+.footer-form {
+    margin-top: 15px
+}
+
+.phone-number {
     text-transform: uppercase;
     font-size: 22px;
     font-weight: bold;
     color:#e08000;
 }
 
-footer h1 {
-    color:#e08000;
-}
-
-#footer-logo {
+.footer-logo {
     font-family: Pacifico;
     font-size: 300%;
     text-decoration: none;

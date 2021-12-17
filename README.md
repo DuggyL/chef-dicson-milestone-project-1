@@ -1,6 +1,6 @@
 <h1 align="center">Chef Dicson Website - Milestone Project 1</h1>
 
-<h2 align="center"><img src=images/chef-dicson-responsive.png></h2>
+<h2 align="center"><img src=assets/images/chef-dicson-responsive.png></h2>
 
 View live project here. [view](https://duggyl.github.io/chef-dicson-milestone-project-1/)
 
@@ -43,7 +43,7 @@ In the future, I would like to add the following features:-
  -   The two main primary colours used are green (#005247) dark green (#0E2925)
  -   Supported by orange (#e08000)
 
-<h2 align="center"><img src=images/colour.jpg></h2>
+<h2 align="center"><img src=assets/images/colour.jpg></h2>
 
 According to the psychology of colour, green represent balance and harmony and a darker shade of green symbolise ambition and wealth.  A gradient of both colours creates the perfect representation of the business brand. The orange colour creates a great contrast with the green background, increasing the readability and image of the chef working in the hot kitchen.
 
@@ -73,9 +73,9 @@ Carousel of culinary dishes designed to showcase new and interesting delicious d
 
 ## Wireframes
 
--   Homepage Wireframe [view](images/monitor-wireframe.png)
--   Mobile Wireframe [view](images/mobile-wireframe.png)
--   Tablet Wireframe [view](images/tablet-wireframe.png)
+-   Homepage Wireframe [view](assets/images/monitor-wireframe.png)
+-   Mobile Wireframe [view](assets/images/mobile-wireframe.png)
+-   Tablet Wireframe [view](assets/images/tablet-wireframe.png)
 
 ## Features
 
@@ -123,9 +123,9 @@ Develop Tools used to maintenance the web page.
 
 The Lighthouse, W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](images/html-validator.png) 
--   [W3C CSS Validator](images/css-validator.png) 
--   [Lighthouse Report](images/lighthouse-report.png)
+-   [W3C Markup Validator](assets/images/html-validator.png) 
+-   [W3C CSS Validator](assets/images/css-validator.png) 
+-   [Lighthouse Report](assets/images/lighthouse-report.png)
 
 CSS Validator flagged minor warnings but the webpage is operational. 
 
@@ -228,5 +228,5 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 -   Images used in readme were screen shot from W3 Validators and Am I Responsive
 
 ### Acknowledgements
--   My Mentor Narender Singh for helpful feedback regarding design, features and functionality. 
+-   My Mentor [Narender Singh](https://github.com/nar3nd3r) for helpful feedback regarding design, features and functionality. 
 -   Stack Overflow developers on questions forum who provided helpful tips and solutions.
