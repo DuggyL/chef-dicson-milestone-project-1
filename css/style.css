@@ -94,11 +94,8 @@ hr {
 
 #dicson {
     display: block;
-    padding: 10px;
-    min-height: 100%;
-    min-width: auto;
 	float: left;
-	margin-right: 15px;
+	margin: 0px 25px 25px 0px;
     shape-outside: circle();
 }
 
