@@ -1,3 +1,11 @@
+<h1 align="center">Chef Dicson Website - Milestone Project 1</h1>
+
+<h2 align="center"><img src=images/chef-dicson-responsive.png></h2>
+
+View live project here. [view](https://duggyl.github.io/chef-dicson-milestone-project-1/)
+
+# User Experience (UX)
+
 ## Design Briefs
 
 This is the personal CV/ portfolio website for Chef Dicson. The goal is to design a website to look simple and elegant, representing experiences offered by clients.  It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers & recruiters. 
@@ -36,91 +44,235 @@ In the future, I would like to add the following features:-
 
     - As a Frequent User, I want contact or connect on social media with Chef Dicson.
 
-##  Design
+# Design
 
-  -   #### Colour Scheme
-        -   The two main primary colours used are dark green (#005247)
-        -   Supported by orange (#e08000)
+## Colour Scheme
+ -   The two main primary colours used are green (#005247) dark green (#0E2925)
+ -   Supported by orange (#e08000)
 
-        According to the psychology of colour, green represent balance and harmony and a darker shade of green symbolise ambition and wealth.  A gradient of both colours creates the perfect representation of the business brand. The orange colour creates a great contrast with the green background, increasing the readability and image of the chef working in the hot kitchen.
+<h2 align="center"><img src=images/colour.jpg></h2>
 
-  -   #### Typography
-        -   Font Pacifico
-        -   Font Quicksand
+According to the psychology of colour, green represent balance and harmony and a darker shade of green symbolise ambition and wealth.  A gradient of both colours creates the perfect representation of the business brand. The orange colour creates a great contrast with the green background, increasing the readability and image of the chef working in the hot kitchen.
+
+
+## Typography
+-   Pacifico
+
+Pacifico will be used exclusively on the Chef Dicson logo. The reason I chose Pacifico is the simplicity and fluidity of the script typeface. It conveys the feelings of being fun, easy-going, and hassle-free. 
+
+-   Quicksand (Included all font weight)
     
-        Pacifico will be used exclusively on the Chef Dicson logo. The reason I chose Pacifico is the simplicity and fluidity of the script typeface. It conveys the feelings of being fun, easy-going, and hassle-free. And it accompanies by Quicksand font, a round sans-serif typeface that conveys a sense of friendliness, reliable and has great readability. 
+And it accompanies by Quicksand font, a round sans-serif typeface that conveys a sense of friendliness and reliability. It also has great readability. 
 
-  -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. The picture showcase chef ability and skills.
+## Imagery
+-   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. 
+-   The pictures showcase chef ability and skills.
 
-        Carousel of culinary dishes designed to showcase new and interesting delicious dishes constantly serve to site visitors. An opportunity to showcase Chef Dicson portfolio of culinary inventions. 
-  -   #### Main landing page layout
-        -   Header - Logo and navigation bar accompanied by main eye catching images.
-        -   Main content - CV, career timeline, 
-        -   Private chef services
-        -   Carousel of culinary invention
-        -   Testimonials
-        -   Footer - Contact details, social media links, contact form
+Carousel of culinary dishes designed to showcase new and interesting delicious dishes constantly serve to site visitors. An opportunity to showcase Chef Dicson portfolio of culinary inventions. 
 
-*   ### Wireframes
+## Main landing page layout
+-   Header - Logo and navigation bar accompanied by main eye catching images.
+-   Main content - CV, career timeline, 
+-   Private chef services
+-   Carousel of culinary invention
+-   Testimonials
+-   Footer - Contact details, social media links, contact form
 
-    -   Homepage Wireframe [view](assets/images/monitor-wireframe.png)
-    -   Mobile Wireframe [view](assets/images/mobile-wireframe.png)
-    -   Tablet Wireframe [view](assets/images/tablet-wireframe.png)
+## Wireframes
+
+-   Homepage Wireframe [view](images/monitor-wireframe.png)
+-   Mobile Wireframe [view](images/mobile-wireframe.png)
+-   Tablet Wireframe [view](images/tablet-wireframe.png)
 
 ## Features
 
 -   Responsive on all device sizes
--   
--   Allow
+    -   Pictures box resize base on device sizes
+    -   Image appear or disappear base on device sizes. About me section, Chef Dicson profile picture disappear on small screen sizes allow more room for text paragraph.
+    -   Text paragraph expands or collapse base on device sizes - the **READ MORE** button added to allow the visitor to expand text on small devices. on large screen devices, text paragraphs display in full and the button is hidden.
+    -   Text layout adjusts base on the screen sizes. Allow better readability on small screen sizes.
+    -   Navigation bar collapses into hamburger icon to declutter header.  
+    -   Adaptive design page layout will reorder into columns based on screen sizes, allowing easy navigation and improving page clarity.  
 
-## Technologies Used
+-   Navigation bar fixed on top of the viewing devices. Navigation options are always available for the visitor.
+-   Direct social media links at the footer, allow visitors access to Chef Dicson social media pages easily. Click on the link will open a new tab, allowing the landing page remains open in another tab. 
+-   Contact Chef Dicson directly using Contact Us form. 
+# Technologies Used
 
 ### Languages Used
 
--   HTML
--   CSS
+-   HTML5
+-   CSS3
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap v5.1.3:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+ Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+Google fonts were used to import the Pacifico and Quicksand font family into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/) 
+Font Awesome was used on all pages throughout the website to add icons for aesthetic purposes.
+1. [Gitpod](https://gitpod.io/)
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the project's code after being pushed from Git.
+GitHub is used to store the project's code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to resizing images and editing photos for the website.   
+Photoshop was used to resizing images and editing photos for the website.   
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the wireframes during the design process.
-1. [cssgradient](/cssgradient.io)
-    - CSS gradient used to created header and footer gradient.
-1. [w3schools](https://www.w3schools.com)
-    - w3schools help me to optimise css codes
-## Testing
+Balsamiq was used to create the wireframes during the design process.
+1. [cssgradient:](/cssgradient.io)
+CSS gradient used to created header and footer gradient.
+1. [Firefox Develop Tools:](/cssgradient.io)
+Develop Tools used to maintenance the web page.
 
-- ### Further Testing
+# Testing
 
-- ### Known Bugs
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
-## Deployment
+-   [W3C Markup Validator](images/html-validator.png) 
+-   [W3C CSS Validator](images/css-validator.png) 
 
-## Credits
+CSS Validator flagged minor warnings but the webpage is operational. 
 
-- ### Code
+### Testing User Stories from User Experience (UX) Section
 
-- ### Content
+-   #### First Time Visitor Goals
 
-- ### Media
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-- ### Acknowledgements
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+        2. The main points are made immediately with the hero image
+        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
 
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
+        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-`python3 -m http.server`
+    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+-   #### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+
+        1. These are clearly shown in the banner message.
+        2. They will be directed to a page with another hero image and call to action.
+
+    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+        1. The navigation bar clearly highlights the "Contact Us" Page.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
+        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+
+    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
+        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
+        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+
+-   #### Frequent User Goals
+
+    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+
+        1. The user would already be comfortable with the website layout and can easily click the banner message.
+
+    2. As a Frequent User, I want to check to see if there are any new blog posts.
+
+        1. The user would already be comfortable with the website layout and can easily click the blog link
+
+    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
+        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
+        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+-   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+-   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
+# Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+# Credits
+
+### Code
+
+-   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+-   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+
+### Media
+
+-   All Images were created by the developer.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
