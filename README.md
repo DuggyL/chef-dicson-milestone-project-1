@@ -86,8 +86,7 @@ Carousel of culinary dishes designed to showcase new and interesting delicious d
     -   Text layout adjusts base on the screen sizes. Allow better readability on small screen sizes.
     -   Navigation bar collapses into hamburger icon to declutter header.  
     -   Adaptive design page layout will reorder into columns based on screen sizes, allowing easy navigation and improving page clarity. 
-    -   On navigation bar, text will change colour if you hover above it. 
-</br>
+-   On navigation bar, text will change colour if you hover above it. 
 -   Navigation bar fixed on top of the viewing devices. Navigation options are always available for the visitor.
 -   Direct social media links at the footer, allow visitors access to Chef Dicson social media pages easily. Click on the link will open a new tab, allowing the landing page remains open in another tab. 
 -   Contact Chef Dicson directly using Contact Us form. 
