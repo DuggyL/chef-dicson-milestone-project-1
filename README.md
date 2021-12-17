@@ -96,9 +96,7 @@ In the future, I would like to add the following features:-
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the project's code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to resizing images and editing photos for the website.
-1. [Illustrator:](https://www.adobe.com/ie/products/illustrator.html)
-    - Illustrator was used to create the logo and icons for the website.    
+    - Photoshop was used to resizing images and editing photos for the website.   
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
 1. [cssgradient](/cssgradient.io)
