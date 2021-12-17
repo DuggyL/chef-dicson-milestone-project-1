@@ -52,16 +52,15 @@ hr {
     
     object-fit: cover;
     object-position: bottom;
-  }
 }
 
 /* Navigation Bar */
 
 #logo {
     font-family: Pacifico;
-    font-size: 260%;
+    font-size: 280%;
     text-decoration: none;
-    color:#e08000;
+    color: #e08000;
 }
 
 #nav-menu li {
@@ -267,7 +266,6 @@ hr {
     
     object-fit: cover;
     object-position: bottom;
-  }
 }
 
 .testimonials-container img {

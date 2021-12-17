@@ -4,9 +4,7 @@
 
 View live project here. [view](https://duggyl.github.io/chef-dicson-milestone-project-1/)
 
-# User Experience (UX)
-
-## Design Briefs
+# Design Briefs
 
 This is the personal CV/ portfolio website for Chef Dicson. The goal is to design a website to look simple and elegant, representing experiences offered by clients.  It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers & recruiters. 
 
@@ -112,7 +110,7 @@ Carousel of culinary dishes designed to showcase new and interesting delicious d
 Google fonts were used to import the Pacifico and Quicksand font family into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/) 
 Font Awesome was used on all pages throughout the website to add icons for aesthetic purposes.
-1. [Gitpod](https://gitpod.io/)
+1. [Gitpod:](https://gitpod.io/)
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
 GitHub is used to store the project's code after being pushed from Git.
