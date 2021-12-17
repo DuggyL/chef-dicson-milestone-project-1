@@ -37,6 +37,7 @@ hr {
 
 .callout-container {
     height: 75vh;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,8 +50,9 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     
-    min-height: 100%;
-    min-width: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
 
 /* Navigation Bar */
@@ -250,6 +252,7 @@ hr {
 
 #testimonials-banner {
     height: 50vh;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -262,8 +265,9 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     
-    min-height: 100%;
-    min-width: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
 
 .testimonials-container img {
