@@ -6,7 +6,7 @@ View live project here. [view](https://duggyl.github.io/chef-dicson-milestone-pr
 
 # Design Briefs
 
-This is the personal CV/ portfolio website for Chef Dicson. The goal is to design a website to look simple and elegant, representing experiences offered by clients.  It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers & recruiters. 
+This is the personal CV/ portfolio website for Chef Dicson. The goal is to design a website to look simple and elegant, representing experiences offered by Chef Dicson.  It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential employers & recruiters. 
 
 ## Purpose & Goals
 
@@ -68,7 +68,7 @@ And it accompanies by Quicksand font, a round sans-serif typeface that conveys a
 
 Carousel of culinary dishes designed to showcase new and interesting delicious dishes constantly serve to site visitors. An opportunity to showcase Chef Dicson portfolio of culinary inventions. 
 
-## Main landing page layout
+## Main Landing Page Layout
 -   Header - Logo and navigation bar accompanied by main eye catching images.
 -   Main content - CV, career timeline, 
 -   Private chef services
@@ -90,11 +90,13 @@ Carousel of culinary dishes designed to showcase new and interesting delicious d
     -   Text paragraph expands or collapse base on device sizes - the **READ MORE** button added to allow the visitor to expand text on small devices. on large screen devices, text paragraphs display in full and the button is hidden.
     -   Text layout adjusts base on the screen sizes. Allow better readability on small screen sizes.
     -   Navigation bar collapses into hamburger icon to declutter header.  
-    -   Adaptive design page layout will reorder into columns based on screen sizes, allowing easy navigation and improving page clarity.  
-
+    -   Adaptive design page layout will reorder into columns based on screen sizes, allowing easy navigation and improving page clarity. 
+    -   On navigation bar, text will change colour if you hover above it. 
+</br>
 -   Navigation bar fixed on top of the viewing devices. Navigation options are always available for the visitor.
 -   Direct social media links at the footer, allow visitors access to Chef Dicson social media pages easily. Click on the link will open a new tab, allowing the landing page remains open in another tab. 
 -   Contact Chef Dicson directly using Contact Us form. 
+
 # Technologies Used
 
 ### Languages Used
@@ -190,16 +192,26 @@ CSS Validator flagged minor warnings but the webpage is operational.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+-   Testing was done to ensure that all pages were linking correctly.
+-   Friends were asked to review the site and report any bugs or user experience issues.
+
+### Mobile / Tablet Devices:
+The website was tested for responsiveness using Google/Firefox Chrome Developer Tools.
+- Galaxy S10
+- Galaxy S20
+- Galaxy Note
+- iPhone X Pro/Max
+- iPhone 11 Pro/Max
+- iPhone 12 Mini/Pro/Max
+- iPhone 13 Mini/Pro/Max
+- iPad
+- iPad Pro
+- Kindle
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On iPad Pro 12.9 screen navigation bar texts bleed off the edge and due to the large screen, the bootstrap framework could not decide between full-screen layout or tablet layout.
 
 # Deployment
 
@@ -207,70 +219,45 @@ CSS Validator flagged minor warnings but the webpage is operational.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+2. At the top of the Repository locate the "Settings".
+3. Click on "Pages" will open "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. At the top near github header to locate the now published site [link](https://duggyl.github.io/chef-dicson-milestone-project-1/).
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the GitHub Repository.
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the GitHub Repository.
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
+4. Open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+6. Type `git clone`, and then paste the URL you copied.
 
 # Credits
 
 ### Code
-
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
-
-### Content
-
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Bootstrap Library used throughout the project mainly to make site responsive
+-   Nav bar, social media and work history codes inspired by Code Institute tutorials projects
+-   W3schools and MDN Webdocs helped me learn more about HTML/CSS and solves problems
+-   Stack Overflow helped with solution to webpage responsiveness 
 
 ### Media
-
--   All Images were created by the developer.
+-   All images on private chef and about me sections were provided by Chef Dicson
+-   Main image and testimonal banner were found on unsplash.com
+-   Pacifico and Quicksand fonts supplied by Google Fonts
+-   Social media icons by Fontawesome
+-   Images used in readme were screen shot from W3 Validators and Am I Responsive
 
 ### Acknowledgements
-
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
+-   My Mentor Narender Singh for helpful feedback regarding design, features and functionality. 
+-   Stack Overflow developers on questions forum who provided helpful tips and solutions.
