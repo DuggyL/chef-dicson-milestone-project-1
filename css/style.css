@@ -95,7 +95,6 @@ hr {
 	height: auto;
 	float: left;
 	margin-right: 15px; 
-	shape-outside: circle();
 }
 
 .about-me {
